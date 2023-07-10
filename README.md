@@ -20,11 +20,11 @@ There is some Default implementation for common uses, like
 that's it.
 
 performance:
-Every strategy is implemented in a multithreaded environment to ensure good performance. Including AutoSave.
+- Every strategy is implemented in a multithreaded environment to ensure good performance. Including AutoSave.
 
 Possibilities:
-You can switch the source Dinamycaly during runtime 
-MemorizationStrategy is extendible if you have some particular need.
+- You can switch the source Dinamycaly during runtime 
+- MemorizationStrategy is extendible if you have some particular need.
 
 
 
