@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SwitchableDataSource:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SwitchableDataSource_jar</output-path>
+    <root id="archive" name="SwitchableDataSource.jar">
+      <element id="module-output" name="SwitchableDataSource" />
+    </root>
+  </artifact>
+</component>

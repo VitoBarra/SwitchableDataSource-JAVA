@@ -1,6 +1,5 @@
 package SwitchableDataSurce.Interfaces;
 
-import VitoBarra.Util.ThreadPoolUtil;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -42,7 +41,7 @@ public abstract class AbstractAutoSaver<T> implements IMemoryStrategy<T> {
     public void SaveAndClose()
     {
         getMemorization().SaveAndClose();
-        ThreadPoolUtil.TryAwaitTermination(AutoSaver, 30, TimeUnit.SECONDS,Name);
+        VitoBarra.JavaUtil.Other.ThreadPoolUtil.TryAwaitTermination(AutoSaver, 30, TimeUnit.SECONDS,Name);
     }
 
     public abstract IMemoryStrategy getMemorization();

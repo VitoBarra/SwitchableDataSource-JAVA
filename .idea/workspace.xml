@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SwitchableDataSource:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db17f219-098f-4a86-add7-3589fe07d1bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/AutoSaverList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/AutoSaverObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/BufferedMemorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/DataIOManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/DataIOManagerAppendable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/ObjectMemorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/DefaultImplementation/RawMemorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/AbstractAutoSaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/AbstractMemorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/IDataAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/IDataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/IDataSaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/IMemoryListStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/IMemoryObjectStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/IMemoryStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Util/AutoSaverBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/AbstractAutoSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Interfaces/AbstractAutoSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Util/AutoSaverBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SwitchableDataSurce/Builder/AutoSaverBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +47,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/User/Documenti/Projects/Git/VitoBarra/ZZ-Uni/Laboratorio 3/FinalProject - Wordle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   }
@@ -82,7 +72,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689004979887</updated>
-      <workItem from="1689004980697" duration="685000" />
+      <workItem from="1689004980697" duration="2498000" />
+      <workItem from="1689009750602" duration="346000" />
+      <workItem from="1689012145978" duration="45000" />
+      <workItem from="1689012846036" duration="124000" />
     </task>
     <servers />
   </component>
